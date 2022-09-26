@@ -5,10 +5,26 @@
         <title>
 
         </title>
+        <style>
+            #grid {
+                border: 5px solid pink;
+                display:grid;
+                grid-template-columns: 150px 1fr;
+            }
+
+            div {
+                border: 5px solid gray;
+            }
+
+
+
+        </style>
     </head>
     <body>
-        <!-- div는 블록엘리먼트이기 때문에 줄바꿈이 된다-->
-        <div>NAGIVATION</div>
-        <div>ARTICLE</div>
+        <div id="grid">
+            <!-- div는 블록엘리먼트이기 때문에 줄바꿈이 된다-->
+            <div>NAGIVATION</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quos impedit nihil architecto, porro temporibus tenetur, commodi vel voluptatem totam ad odit quidem ratione blanditiis perspiciatis fugiat id? A, officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non ea quaerat qui quae unde cum natus perferendis ullam eveniet, aliquam doloremque, reiciendis atque tempora error, enim dignissimos eum nesciunt! Nihil!</div>
+        </div>
     </body>
 </html>
