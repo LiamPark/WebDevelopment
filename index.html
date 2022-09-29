@@ -4,54 +4,28 @@
     <title>WEB1 - HTML </title>
     <meta charset="utf-8">
 
-    <style>
-      a {
-        color: black;
-        text-decoration: none;
-      }
-      h1 {
-        font-size: 45px;
-        text-align:center;
-        border-bottom: 1px solid gray;
-        margin: 0px;
-        padding: 20px;
+    <link rel="stylesheet" href="style.css" />
 
-      }
-      ol {
-        border-right: 1px solid gray;
-        width: 100px;
-        margin: 0px;
-        padding: 20px;
-      }
-
-      body {
-        margin: 0px;
-      }
-
-      .seen {
-        color: gray;
-      }
-
-      #active {
-        color: red;
-      }
-    </style>
 
   </head>
   <body>
   <!--link added-->
   <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a class="seen" href="1.html">HTML</a></li>
-    <li><a class="seen" id="active" href="box.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
-    <h2>HTML이란 무엇인가?</h2>
-    <p>The <a href="http://www.w3.org/TR/html5/" target="_blank" title="HTML5 specification">HyperText Markup Language or HTML </a> is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as <strong><u>Cascading Style Sheets</u> (CSS)</strong> and scripting languages such as <strong>JavaScript</strong>.
-    </p>
-
-    <p>
-    <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" width="10%">
-    </p>
+  <div id="grid">
+    <ol>
+      <li><a class="seen" href="1.html">HTML</a></li>
+      <li><a class="seen" id="active" href="box.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+    <div id="article">
+      <h2>HTML이란 무엇인가?</h2>
+      <p>The <a href="http://www.w3.org/TR/html5/" target="_blank" title="HTML5 specification">HyperText Markup Language or HTML </a> is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as <strong><u>Cascading Style Sheets</u> (CSS)</strong> and scripting languages such as <strong>JavaScript</strong>.
+      </p>
+  
+      <p>
+      <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" width="10%">
+      </p>
+    </div>
+  </div>
   </body>
 </html>
